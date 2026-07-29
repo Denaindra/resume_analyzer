@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": "usr_1",
+      "email": "user@example.com",
+      "name": "Alex Carter",
+      "subscription": "Free"
+    }
+  ],
+  "resumes": [
+    {
+      "id": "res_1",
+      "title": "Software Engineer Resume",
+      "lastModified": "2026-07-19T10:00:00Z",
+      "completionScore": 85,
+      "atsScore": 92,
+      "sections": {
+        "personalInfo": {
+          "name": "Alex Carter",
+          "email": "user@example.com",
+          "phone": "+1 (555) 019-2834",
+          "summary": "Experienced software engineer specializing in building full-stack web applications with Next.js and Tailwind CSS."
+        },
+        "experience": [
+          {
+            "company": "Tech Corp",
+            "role": "Senior Frontend Engineer",
+            "duration": "2024 - Present",
+            "description": "Lead development of cloud-native UI dashboards. Improved performance by 35% using React Server Components."
+          },
+          {
+            "company": "Innovate LLC",
+            "role": "Full Stack Developer",
+            "duration": "2022 - 2024",
+            "description": "Designed RESTful APIs using Node.js and built responsive user interfaces using modern CSS frameworks."
+          }
+        ],
+        "education": [
+          {
+            "institution": "State University",
+            "degree": "B.S. in Computer Science",
+            "year": "2022"
+          }
+        ],
+        "skills": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js",
+          "GraphQL"
+        ]
+      }
+    },
+    {
+      "id": "res_2",
+      "title": "Product Manager Resume",
+      "lastModified": "2026-07-18T15:30:00Z",
+      "completionScore": 60,
+      "atsScore": 78,
+      "sections": {
+        "personalInfo": {
+          "name": "Alex Carter",
+          "email": "user@example.com",
+          "phone": "+1 (555) 019-2834",
+          "summary": "Detail-oriented Product Manager with a background in engineering, specialized in agile workflows and product design."
+        },
+        "experience": [
+          {
+            "company": "Product Studio",
+            "role": "Associate Product Manager",
+            "duration": "2024 - Present",
+            "description": "Manage product backlog, define user stories, and collaborate with cross-functional design and engineering teams."
+          }
+        ],
+        "education": [
+          {
+            "institution": "State University",
+            "degree": "B.S. in Computer Science",
+            "year": "2022"
+          }
+        ],
+        "skills": [
+          "Product Roadmap",
+          "Agile/Scrum",
+          "User Research",
+          "Wireframing",
+          "SQL"
+        ]
+      }
+    }
+  ]
+}
